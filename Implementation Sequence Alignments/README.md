@@ -1,4 +1,8 @@
 # Bioinformatics
+
+In bioinformatics, a sequence alignment is a way of arranging the sequences of DNA, RNA, or protein to identify regions of similarity that may be a consequence of functional, structural, or evolutionary relationships between the sequences.[1] Aligned sequences of nucleotide or amino acid residues are typically represented as rows within a matrix. Gaps are inserted between the residues so that identical or similar characters are aligned in successive columns. Sequence alignments are also used for non-biological sequences, such as calculating the edit distance cost between strings in a natural language or in financial data
+
+
 Implementation of algorithms for Bio Informatics 
 
 Uni-Align
@@ -62,6 +66,7 @@ Output: LCS, Length of the LCS and edit distance between the strings.
 
 
 References:
+0https://en.wikipedia.org/wiki/Sequence_alignment
 1Algorithms on Strings, Trees, and Sequences - 11.2.1
 2 https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm
 3Introduction to Computational Molecular biology- 3.2.2
