@@ -315,9 +315,9 @@ def lcs(seq1, seq2):
             seq = seq1[x - 1] + seq
             x -= 1
             y -= 1
-    print("Below is the longest Sub-Sequence of the string : ", seq)
+    print("Longest Sub-Sequence of the string : ", seq)
     print("Length of the Sub-Sequence :", len(seq))
-
+    print("Edit distance required to change 1st string to 2nd  :", len(seq1)+ len(seq2) - 2*len(seq))
 
 # --------------------------------------------------------------------
 
